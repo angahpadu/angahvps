@@ -10,7 +10,6 @@ fi
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
-MYIP=$(wget -qO- icanhazip.com);
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
 exit 0
