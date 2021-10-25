@@ -18,9 +18,9 @@ echo -e "* [10]         : Restart Service Dropbear, Squid3, OpenVPN dan SSH"
 echo -e ""
 echo -e "==============================================================="
 echo -e ""
-read -p "        Select From Options [1-10 or x]: " menu
+read -p "        Select From Options [1-10 or x]: " menuopen
 echo -e ""
-case $menu in
+case $menuopen in
 1)
 usernew
 ;;
