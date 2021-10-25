@@ -23,13 +23,14 @@ rm -f setup.sh
 exit 0
 fi
 versi=$(cat /home/ver)
-if [[ $versi == 1.2 ]]; then
+if [[ $versi == 1.3 ]]; then
 echo "You Have The Latest Version"
 exit 0
 fi
 echo "Start Update"
 cd /usr/bin
 wget -O menu "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu.sh"
+wget -O menu-l2pt "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-l2pt.sh"
 wget -O usernew "https://raw.githubusercontent.com/angahpadu/angahvps/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/angahpadu/angahvps/main/trial.sh"
 wget -O change-port "https://raw.githubusercontent.com/angahpadu/angahvps/main/change.sh"
