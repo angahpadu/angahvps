@@ -11,9 +11,9 @@ echo -e "* [3]          : Extending L2TP Account Active Life"
 echo -e ""
 echo -e "==============================================================="
 echo -e ""
-read -p "        Select From Options [1-3 or x]: " menu
+read -p "        Select From Options [1-3 or x]: " menul2pt
 echo -e ""
-case $menu in
+case $menul2pt in
 1)
 add-l2tp
 ;;
