@@ -1,4 +1,31 @@
 #!/bin/bash
+if [ "${EUID}" -ne 0 ]; then
+		echo "You need to run this script as root"
+		exit 1
+fi
+if [ "$(systemd-detect-virt)" == "openvz" ]; then
+		echo "OpenVZ is not supported"
+		exit 1
+fi
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+MYIP=$(wget -qO- ipinfo.io/ip);
+IZIN=$( curl https://raw.githubusercontent.com/angahpadu/ipbaik/main/ipbaikbangat | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
+echo -e "${green}Permission Accepted...${NC}"
+else
+echo -e "${red}Permission Denied!${NC}";
+echo "Please Contact Admin"
+echo "Telegram t.me/djas08"
+echo "WhatsApp wa.me/62822220428038"
+rm -f setup.sh
+exit 0
+fi
+if [ -f "/etc/v2ray/domain" ]; then
+echo "Script Already Installed"
+exit 0
+fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 wget https://raw.githubusercontent.com/angahpadu/angahvps/main/cf.sh && chmod +x cf.sh && ./cf.sh
@@ -87,12 +114,12 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Geng Angah"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/matyo"  | tee -a log-install.txt
-echo "   - Instagram               : 000000000"  | tee -a log-install.txt
-echo "   - Whatsapp                : 000000000"  | tee -a log-install.txt
-echo "   - Facebook                : 000000000" | tee -a log-install.txt
-echo "------------------Script Created By Angah - v2ray malaysia Grup-----------------" | tee -a log-install.txt
+echo "   - Dev/Main                : DjasTv Grup"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/djasri08"  | tee -a log-install.txt
+echo "   - Instagram               : @djas"  | tee -a log-install.txt
+echo "   - Whatsapp                : 082220428038"  | tee -a log-install.txt
+echo "   - Facebook                : https://www.facebook.com/myasri" | tee -a log-install.txt
+echo "------------------Script Created By DjasTV - v2ray Indonesia Grup-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
