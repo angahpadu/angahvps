@@ -237,6 +237,16 @@ cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/angahpadu/angahvps/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/angahpadu/angahvps/main/about.sh"
 wget -O menu "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu.sh"
+wget -O menu-open "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-open.sh"
+wget -O menu-pptp "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-pptp.sh"
+wget -O menu-ss "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-ss.sh"
+wget -O menu-ssr "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-ssr.sh"
+wget -O menu-sstp "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-sstp.sh"
+wget -O menu-tr "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-tr.sh"
+wget -O menu-vless "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-vless.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-vmess.sh"
+wget -O menu-wg "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-wg.sh"
+wget -O menu-l2pt "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-l2pt.sh"
 wget -O usernew "https://raw.githubusercontent.com/angahpadu/angahvps/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/angahpadu/angahvps/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/angahpadu/angahvps/main/hapus.sh"
@@ -266,6 +276,16 @@ wget -O xp "https://raw.githubusercontent.com/angahpadu/angahvps/main/xp.sh"
 wget -O kernel-updt "https://raw.githubusercontent.com/angahpadu/angahvps/main/kernel-update.sh"
 chmod +x add-host
 chmod +x menu
+chmod +x menu-vmess
+chmod +x menu-vless
+chmod +x menu-l2tp
+chmod +x menu-pptp
+chmod +x menu-sstp
+chmod +x menu-ss
+chmod +x menu-ssr
+chmod +x menu-trojan
+chmod +x menu-wg
+chmod +x menu-ssh
 chmod +x usernew
 chmod +x trial
 chmod +x hapus
