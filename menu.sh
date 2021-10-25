@@ -54,7 +54,7 @@ menuopen
 menuwg
 ;;
 3)
-menul2pt
+menu-l2pt
 ;;
 4)
 menupptp
