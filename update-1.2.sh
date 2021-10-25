@@ -11,7 +11,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.co);
-IZIN=$( curl https://raw.githubusercontent.com/angahpadu/angahvps/ipbaikbanget | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/angahpadu/angahvps/main/ipbaikbanget | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -29,25 +29,25 @@ exit 0
 fi
 echo "Start Update"
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/angahpadu/angahvps/menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/angahpadu/angahvps/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/angahpadu/angahvps/trial.sh"
-wget -O change-port "https://raw.githubusercontent.com/angahpadu/angahvps/change.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/angahpadu/angahvps/port-ovpn.sh"
-wget -O port-ssl "https://raw.githubusercontent.com/angahpadu/angahvps/port-ssl.sh"
-wget -O port-wg "https://raw.githubusercontent.com/angahpadu/angahvps/port-wg.sh"
-wget -O port-tr "https://raw.githubusercontent.com/angahpadu/angahvps/port-tr.sh"
-wget -O port-sstp "https://raw.githubusercontent.com/angahpadu/angahvps/port-sstp.sh"
-wget -O port-squid "https://raw.githubusercontent.com/angahpadu/angahvps/port-squid.sh"
-wget -O port-ws "https://raw.githubusercontent.com/angahpadu/angahvps/port-ws.sh"
-wget -O port-vless "https://raw.githubusercontent.com/angahpadu/angahvps/port-vless.sh"
-wget -O wbmn "https://raw.githubusercontent.com/angahpadu/angahvps/webmin.sh"
-wget -O xp "https://raw.githubusercontent.com/angahpadu/angahvps/xp.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/angahpadu/angahvps/limit-speed.sh"
-wget -O add-sstp "https://raw.githubusercontent.com/angahpadu/angahvps/add-sstp.sh"
-wget -O add-ws "https://raw.githubusercontent.com/angahpadu/angahvps/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/angahpadu/angahvps/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/angahpadu/angahvps/add-tr.sh"
+wget -O menu "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/angahpadu/angahvps/main/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/angahpadu/angahvps/main/trial.sh"
+wget -O change-port "https://raw.githubusercontent.com/angahpadu/angahvps/main/change.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-ovpn.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-ssl.sh"
+wget -O port-wg "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-wg.sh"
+wget -O port-tr "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-tr.sh"
+wget -O port-sstp "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-sstp.sh"
+wget -O port-squid "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-squid.sh"
+wget -O port-ws "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-ws.sh"
+wget -O port-vless "https://raw.githubusercontent.com/angahpadu/angahvps/main/port-vless.sh"
+wget -O wbmn "https://raw.githubusercontent.com/angahpadu/angahvps/main/webmin.sh"
+wget -O xp "https://raw.githubusercontent.com/angahpadu/angahvps/main/xp.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/angahpadu/angahvps/main/limit-speed.sh"
+wget -O add-sstp "https://raw.githubusercontent.com/angahpadu/angahvps/main/add-sstp.sh"
+wget -O add-ws "https://raw.githubusercontent.com/angahpadu/angahvps/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/angahpadu/angahvps/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/angahpadu/angahvps/main/add-tr.sh"
 chmod +x change-port
 chmod +x port-ovpn
 chmod +x port-ssl
