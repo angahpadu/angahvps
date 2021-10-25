@@ -3,15 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/angahpadu/angahvps/ipbaikbanget | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-echo -e "${green}Permission Accepted...${NC}"
-else
-echo -e "${red}Permission Denied!${NC}";
-echo "Only For Premium Users"
-exit 0
-fi
+
 echo -n > /tmp/other.txt
 data=( `cat /etc/v2ray/vless.json | grep '^###' | cut -d ' ' -f 2`);
 echo "-------------------------------";
