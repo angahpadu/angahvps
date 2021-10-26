@@ -11,14 +11,14 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/angahpadu/ipbaik/main/ipbaikbanget | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/angahpadu/ipbaik/main/ipbaikbangat | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/djas08"
-echo "WhatsApp wa.me/62822220428038"
+echo "Telegram t.me/matyo123"
+echo "WhatsApp wa.me/01163872049"
 rm -f setup.sh
 exit 0
 fi
@@ -100,7 +100,7 @@ echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Kuala Lumpur (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
@@ -114,12 +114,10 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : DjasTv Grup"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/djasri08"  | tee -a log-install.txt
-echo "   - Instagram               : @djas"  | tee -a log-install.txt
-echo "   - Whatsapp                : 082220428038"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/myasri" | tee -a log-install.txt
-echo "------------------Script Created By DjasTV - v2ray Indonesia Grup-----------------" | tee -a log-install.txt
+echo "   - Dev/Main                : ANGAHVPS Grup"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/matyo123"  | tee -a log-install.txt
+echo "   - Whatsapp                : 01163872049"  | tee -a log-install.txt
+echo "------------------Script Created By ANGAHVPS - v2ray malaysia Grup-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
