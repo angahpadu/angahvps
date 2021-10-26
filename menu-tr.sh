@@ -16,7 +16,7 @@ read -p "        Select From Options [1-4 or x]: " menutr
 echo -e ""
 case $menutr  in
 1)
-add-
+add-tr
 ;;
 2)
 del-tr  
