@@ -246,7 +246,7 @@ wget -O menu-tr "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-
 wget -O menu-vless "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-vless.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-vmess.sh"
 wget -O menu-wg "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-wg.sh"
-wget -O menu-l2pt "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-l2pt.sh"
+wget -O menu-l2tp "https://raw.githubusercontent.com/angahpadu/angahvps/main/menu-l2pt.sh"
 wget -O usernew "https://raw.githubusercontent.com/angahpadu/angahvps/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/angahpadu/angahvps/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/angahpadu/angahvps/main/hapus.sh"
