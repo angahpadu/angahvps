@@ -281,9 +281,10 @@ chmod +x menu-vless
 chmod +x menu-l2tp
 chmod +x menu-pptp
 chmod +x menu-sstp
+chmod +x menu-open
 chmod +x menu-ss
 chmod +x menu-ssr
-chmod +x menu-trojan
+chmod +x menu-tr
 chmod +x menu-wg
 chmod +x menu-ssh
 chmod +x usernew
